@@ -272,8 +272,7 @@ function MeetingDetail({ meeting, team, onBack }) {
     </div>
   );
 }
-Here's chunk 6:
-jsxfunction TeamSetup({ team, onSave, onBack }) {
+function TeamSetup({ team, onSave, onBack }) {
   const [members, setMembers] = useState(team.length > 0 ? team : []);
   const [newName, setNewName] = useState("");
   const [editing, setEditing] = useState(null);
